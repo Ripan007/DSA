@@ -1,0 +1,10 @@
+stack:
+# data structure where we store elements
+# LIFO principle : last in first out
+1.insert element : push()
+2.remove element : pop() => remove the last element pushed / remove and return the topmost , last element of the stack
+3.top element : peek() => return the last element inserted / return the topmost / last element of the stack
+4.size : return the number of element in the stack / return the length of the stack or no of elements of the stack
+5.isEmpty: size==0
+
+
