@@ -1,0 +1,20 @@
+1.what data structure hashMap represents
+- hashTale data structure
+- data  are store in key value pairs
+- 0(1) time if we have the key
+2.which data structure is used to implement hashmap in java
+- array & linkeidlist
+3.is hashmap thread-safe in java
+-no
+4.what will happpen if you use hashmap in a multi-threaded java Application
+5.how do you remove a mapping while itarting over hashmap in java
+6.what is the load factor in hashmap
+7.how many entries you can store in hashmap/what is the maximum limit
+8.what is the diff b/w the capacity and size of hashmap in java
+9.what is concurrent hashmap in java
+10.what is diff b/w hashtable and concurrenthashmap in java
+11.can you store a duplicate key in hashmap
+12.can you store  the duplicate value in  java hashmap
+13.in which order mapping are stored in hashmap
+14.what will happen if two diff keys of hashmap return the same hashcode
+15. what does concurrent modification exceptional occur
