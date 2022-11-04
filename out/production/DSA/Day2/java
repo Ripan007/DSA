@@ -1,0 +1,12 @@
+1.reverse a given string
+2.check if a given string is palindrome or not
+3.find the maximum and minimum occurring character in given string
+4.count number of words in string
+5.print all permutation of string
+6.print the duplicate character from the string
+7.remove a given character from a string
+8.remove all duplicate from a given string
+9.remove character from the first string which are present in second string
+10.find the first non-repeating character  in a given string
+11.check if two given string is anagram of each other
+12.method to split a comma separated string in java
