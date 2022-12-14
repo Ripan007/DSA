@@ -18,10 +18,7 @@ int[] nums = {12,345,2,6,7896,67,56,89};
     //function to check if a number contains even digit or not
     static boolean even(int num){
 int numberOfDigits = digits(num);
-if(numberOfDigits%2==0){
-    return true;
-}
-return false;
+        return numberOfDigits % 2 == 0;
     }
 
     // count number of digits in number

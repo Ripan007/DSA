@@ -41,7 +41,7 @@ public class LL {
     }
 private class Node{
     private Node next;
-    private int value;
+    private final int value;
 
     public Node (int value){
         this.value= value;

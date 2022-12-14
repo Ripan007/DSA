@@ -34,11 +34,8 @@ public class linearSearch {
 //    }
 
     static boolean search2(int[] num , int target){
-        if(num.length==0){
-            return false;
-        }
 
-       for(int element:num){
+        for(int element:num){
            if(element==target){
                return true;
            }
