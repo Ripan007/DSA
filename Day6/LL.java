@@ -1,70 +1,65 @@
 package Day6;
-
 public class LL {
     private Node head;
     private Node tail;
 
     private int size;
-
     public LL(){
-        this.size = 0;
+        this.size =0;
     }
     private class Node{
-        private int  value;
+        private int value;
         private Node next;
 
-        public Node (int value){
+        // constructor
+
+        public Node(int value){
             this.value = value;
         }
+
         public Node(int value, Node next){
             this.value = value;
             this.next = next;
         }
     }
+
+    // insert at fast //
     public void insertFirst(int value){
         Node node = new Node(value);
-        node.next = head;
+        node.next =head;
         head = node;
-
-        if(tail == null){
+        if(tail==  null){
             tail = head;
         }
         size++;
+
     }
 
+    // insert at last //
     public void insertLast(int value){
-        if(tail == null){
+        if(head == null){
             insertFirst(value);
-            return;
         }
         Node node = new Node(value);
         tail.next = node;
-        node = tail;
-        tail = tail.next;
+        tail = node;
         size++;
-
+    }
+// insert at particular index
+    public void insertParticular(int value, int index){
+    if(head == null){
+        insertFirst(value);
     }
 
-    public void insertParticular(int value, int index){
-        if(index == 0){
-            insertFirst(value);
-            return;
-        }
-        if(index == size){
-            insertLast(value);
-            return;
-        }
-        Node temp = head;
-        for(int i=1;i<index;i++){
 
-        }
     }
     public void display(){
-        Node  temp = head;
-        while(temp != null){
-            System.out.print(temp.value + "=>");
-            temp = temp.next;
-        }
+     Node temp = head;
+     while(temp!=null){
+         System.out.print(temp.value + "=>");
+         temp = temp.next;
+     }
         System.out.println("end");
     }
+
 }
